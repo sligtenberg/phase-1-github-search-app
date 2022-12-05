@@ -13,8 +13,15 @@
     <h2>GitHub Search</h2>
 
     <form id='github-form'>
-      <input id='search' type='text' name='search'>
+      <input id='search' type='text' name='search'><br>
+
+      <input type="radio" id="user" name="search_type" value="user"/>
+      <label for="user">Username</label><br>
+      <input type="radio" id="repo" name="search_type" value="repo"/>
+      <label for="repo">Repository</label><br>
+
       <input type='submit' name='submit'/>
+
     </form>
 
     <div id='github-container'>

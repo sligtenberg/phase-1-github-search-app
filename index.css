@@ -11,3 +11,9 @@
 ul {
   list-style: none;
 }
+
+.avatar-img {
+  justify-self: center;
+  height: 6rem;
+  width: auto;
+}
